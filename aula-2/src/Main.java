@@ -25,9 +25,9 @@ public class Main {
 //        // tipagem dinâmica
 //        var sobrenome = "Campos";
 //
-//        // constantes
+        // constantes
 //        final int IDADE = 10;
-//        //IDADE = 10; // ERRO
+        //IDADE = 10; // ERRO
 
         /* Operadores */
 //        int numero = (10 + 10) - 5 * 2 / 1;
