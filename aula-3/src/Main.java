@@ -1,5 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
+//public class Main {
+//    public static void main(String[] args) {
         // IF - Se
 //        int idade = 17;
 //        if (idade >= 18) {
@@ -57,13 +57,13 @@ public class Main {
 //        }
 
         // While = Enquanto
-        int contador = 0;
-        while (contador <= 10) {
-            System.out.println(contador);
-            contador++;
-
-            if (contador == 2) break;
-        }
+//        int contador = 0;
+//        while (contador <= 10) {
+//            System.out.println(contador);
+//            contador++;
+//
+//            if (contador == 2) break;
+//        }
 //
 //        System.out.println("Loop pausado");
 
@@ -71,5 +71,21 @@ public class Main {
 //        do {
 //            System.out.println("Executou");
 //        } while (false);
-    }
-}
+
+
+//        if (true) {
+//
+//        } else if () {
+//
+//        } else {
+//
+//        }
+
+//        int valor = 1;
+//        switch (valor) {
+//            case 1 -> System.out.println("Valor 1");
+//            case 2 ->  System.out.println("Valor 2");
+//            default -> System.out.println("Valor invalido");
+//        }
+//    }
+//}
