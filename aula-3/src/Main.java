@@ -1,5 +1,5 @@
-//public class Main {
-//    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         // IF - Se
 //        int idade = 17;
 //        if (idade >= 18) {
@@ -87,5 +87,21 @@
 //            case 2 ->  System.out.println("Valor 2");
 //            default -> System.out.println("Valor invalido");
 //        }
-//    }
-//}
+
+        int opcao = 3;
+
+        switch (opcao) {
+            case 1:
+                System.out.println("Valor 1");
+                break;
+            case 2:
+                System.out.println("Valor 2");
+                break;
+            case 3: case 4:
+                System.out.println("Valor 3 ou 4");
+                break;
+            default:
+                System.out.println("Opção invalida");
+        }
+    }
+}
