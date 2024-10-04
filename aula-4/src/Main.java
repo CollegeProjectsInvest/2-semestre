@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -114,5 +115,21 @@ public class Main {
 //        for (int numero : numeros) {
 //            System.out.println(numero);
 //        }
+//
+//        ArrayList<Integer> numeros = new ArrayList<>();
+//
+//        numeros.add(10);
+//        numeros.add(21);
+
+
+        HashMap<String, String> teste = new HashMap<>();
+
+        teste.put("Teste1", "valor1");
+        teste.put("Teste2", "valor2");
+
+        for (Map.Entry<String, String> entry : teste.entrySet()) {
+            System.out.println("Chave: " + entry.getKey());
+            System.out.println("Valor: " + entry.getValue());
+        }
     }
 }
