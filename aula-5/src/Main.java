@@ -16,21 +16,42 @@ public class Main {
 //        pessoa2.cadastrar();
 
 
+//        var scanner = new Scanner(System.in);
+//
+//        ArrayList<Produto> produtos = new ArrayList<>();
+//
+//        while (true) {
+//            var produto = Produto.cadastrar();
+//            produtos.add(produto);
+//
+//            System.out.println("Deseja sair? 0");
+//            int option = scanner.nextInt();
+//            if (option == 0) break;
+//        }
+//
+//        for (Produto produto : produtos) {
+//            produto.visualizarProduto();
+//        }
+
+        // 2
         var scanner = new Scanner(System.in);
 
-        ArrayList<Produto> produtos = new ArrayList<>();
+        System.out.println("-- Vamos criar sua conta --");
 
-        while (true) {
-            var produto = Produto.cadastrar();
-            produtos.add(produto);
+        System.out.println("Digite o nome do titular: ");
+        var nome = scanner.next();
 
-            System.out.println("Deseja sair? 0");
-            int option = scanner.nextInt();
-            if (option == 0) break;
-        }
+        var conta = new ContaBancaria(nome);
 
-        for (Produto produto : produtos) {
-            produto.visualizarProduto();
-        }
+        // 1 - Depositar
+        // 2 - Sacar
+        // 3 - Visualizar Saldo
+        // 0 - Sair
+
+        conta.depositar(100);
+
+        conta.verificarSaldo();
+
+        conta.sacar(40);
     }
 }
