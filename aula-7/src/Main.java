@@ -21,6 +21,8 @@ class ClasseFilha extends ClassePai {
 
     @Override
     public void metodoTeste() {
+        super.metodoTeste(); // também você pode chamar tudo que a classe pai tem
+
         // Sobreescrevendo método da classe pai
         System.out.println("Método classe filha");
     }
@@ -35,6 +37,6 @@ class ClasseNeta extends ClasseFilha {
 public class Main {
     public static void main(String[] args) {
         var classeFilha = new ClasseFilha("Marcos", "20");
-        System.out.println(classeFilha.nome);
+        classeFilha.metodoTeste();
     }
 }
