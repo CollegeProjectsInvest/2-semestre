@@ -84,7 +84,7 @@ class UserServices implements IService {
     }
 }
 
-// SOL[I]D = Independency Injection
+// SOLI[D] = Dependency Injection
 class UserController implements IController {
     private IService userService;
 
